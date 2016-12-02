@@ -1,0 +1,475 @@
+body {
+  overflow-x: hidden;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.left{
+  text-align:left;
+}
+.margin-left-2{
+  margin-left:2%
+}
+.splash {
+    height: 100vh;
+    margin-top: 6.2rem;
+}
+.emailField{
+  width: 50%;
+  height: 38px;
+}
+.signup{
+  background:#E60024;
+  border:1px solid #E60024;
+  border-radius:6%;
+  height: 38px;
+  color:white;
+  padding-left:20px;
+  padding-right:20px;
+  width: 150px;
+  cursor: pointer;
+}
+.signup:hover {
+    color: #E60024;
+    background: #fff;
+}
+.second, .final-cta, .footer, .pricing {
+    background: #FAFAFA;
+    background: -webkit-linear-gradient(#FAFAFA,#FFF);
+    background: linear-gradient(#FAFAFA,#FFF);
+    text-align: center;
+    padding: 50px 0;
+}
+
+.item {
+  width: 200px;
+  margin: 50px auto;
+  max-height: 250px;
+  padding: 75px 20px;
+  background: #ccc;
+  text-align: center;
+  color: #FFF;
+  font-size: 3em;
+  
+  span {
+    display: block;
+    font-size: 1rem;
+  }
+}
+.item--primary {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    right: 20px;
+    background: green;
+ }
+  
+.item--secondary {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    left: 20px;
+    background: red;
+  }
+}
+body{
+  background-color:red;
+}
+.navbar-inverse{
+  background-color:white;
+}
+nav.navbar.navbar-inverse.navbar-fixed-top div.container{
+  margin-left:0px;
+}
+.navbar-inverse .navbar-header a{
+  color:#CC0073;
+  font-size:2.5em;
+}
+.navbar-inverse .navbar-header a:hover{
+  color:#B206FF;
+}
+.navbar-inverse .navbar-nav>li>a{
+  color:#CC0073 ;
+  font-size:1.3em;
+}
+.navbar-inverse .navbar-nav>li>a:hover{
+  color:#B206FF;
+  /*background-color:yellow ;*/
+}
+.navbar .container .navbar-header a{
+  font-family: 'Aref Ruqaa', serif;
+}
+.navbar .container .navbar-collapse ul{
+  margin-right:-195px
+}
+.firstRow{
+  display: flex;
+  flex-flow: column;
+}
+.section-heading{
+  margin: 30px 0;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+   /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  flex: 1 1 auto;
+  height: 39px;
+}
+.oneParent{
+  /*width: 279px;*/
+  margin: 10px 0px;
+}
+.section-heading.one{
+  /*width: 279px;*/
+  /*margin-right:70% !important;*/
+  float:left;
+  display:inline-block;
+}
+.twoParent{
+  /*width: 591px;*/
+  margin: 10px 0px;
+}
+.section-heading.two{
+  /*width: 591px;*/
+  /*margin-right:25% !important;*/
+  float:left;
+  display:none;
+}
+.threeParent{
+  /*width: 393px;*/
+  margin: 10px 0px;
+
+}
+.section-heading.three{
+  /*width: 393px;*/
+  float:left;
+  margin-right:50% !important;
+  display:none;
+}
+.fourParent{
+  /*width: 493px;*/
+  margin: 10px 0px;
+}
+.section-heading.four{
+  /*width: 393px;*/
+  margin-right:50% !important;
+  display:none;
+}
+.typewriter1{
+  width: 279px;
+  border-right: .10em solid black;
+  animation: 
+  typingA 0.5s steps(40, end),
+  blink-caret .75s step-end infinite;
+
+}
+.typewriter2{
+  border-right: .10em solid black;
+  animation: 
+  typingB 0.6s steps(40, end),
+  blink-caret .75s step-end infinite;
+}
+.typewriter3{
+  border-right: .10em solid black;
+  animation: 
+  typingC 0.6s steps(40, end),
+  blink-caret .75s step-end infinite;
+}
+.typewriter4{
+  border-right: .10em solid black;
+  animation: 
+  typingD 0.8s steps(40, end),
+  blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typingA {
+  from { width: 0 }
+  to { width: 26% }
+}
+@keyframes typingB {
+  from { width: 0 }
+  to { width: 50% }
+}
+@keyframes typingC {
+  from { width: 0 }
+  to { width: 40% }
+}
+@keyframes typingD {
+  from { width: 0 }
+  to { width: 60% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  30% { border-color: orange; }
+}
+.second-content{
+    position: relative;
+    padding: 2em 0;
+    margin: 2em;
+}
+
+.second-content::before {
+  content:'';
+    position: absolute;
+    top: 0;
+    left: 18px;
+    height: 100%;
+    width: 4px;
+    background: #B206FF;
+}
+.count {
+    /*position: absolute;*/
+    top: 0;
+    left: 0;
+    width: 36px;
+    height: 36px;
+    border: 4px solid #CC0073;
+    background: #FFF;
+    /*border-radius: 50%;*/
+}
+.count h5{
+  font-size: 20px;
+  line-height: 0px;
+  margin-top: 13px;
+}
+
+.pane-content{
+    position: relative;
+    margin-left: 60px;
+    background: #FAFAFA;
+    background: -webkit-linear-gradient(#FAFAFA,#FFF);
+    background: linear-gradient(#FAFAFA,#FFF);
+    border-radius: .25em;
+    padding: 1em;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 0 0 rgba(0,0,0,.25);
+}
+.pane-content img{
+  margin-left: 15px;
+}
+.pane-content .row .col-sm-5{
+  /*background-color:white; */
+  /*border: 1px solid black; */
+  height:250px; 
+  width: 250px;
+  padding-left:0px;
+}
+.pane-content .row .col-sm-8{
+  /*background-color:white; */
+  /*border: 1px solid black; */
+  height:250px; 
+  padding-top:60px;
+  font-size:2.4rem;
+}
+.pane-content .row .col-sm-8 h5{
+  font-size:2.4rem;
+}
+.pane-content .row .col-sm-8 p{
+  text-align:left;
+}
+
+.pane-content::before{
+  position: absolute;
+  top: 16px;
+  right: 100%;
+  height: 0;
+  width: 0;
+  border: 7px solid transparent;
+  border-right: 7px solid red;
+}
+.testimonial{
+  background: #B206FF;
+  background: -webkit-radial-gradient(circle at bottom right,#CC0073,#B206FF);
+  background: radial-gradient(circle at bottom right,#CC0073,#B206FF);
+  text-align: left;
+  padding: 50px 0;
+  color: #f5f5f5;
+  max-height: 350px;
+}
+.testimonial .container{
+  margin-left:5%;
+  margin-right:5%;
+}
+.testimonial-text{
+  min-height: 280px;
+}
+.testimonial-text h4{
+  font-size: 2.6rem;
+  line-height: 1.35em;
+  letter-spacing: 0.5rem;
+  font-family: 'Aref Ruqaa', serif;
+}
+.testimonial-text h5{
+  font-size: 1.8rem;
+  line-height: 1.35;
+  letter-spacing: 1rem;
+}
+.membership a{
+  margin-bottom:1em;
+  border: 1px solid black;
+  display: inline-block;
+      height: 38px;
+      padding: 0 30px;
+      color: #555;
+      text-align: center;
+      font-size: 11px;
+      font-weight: 600;
+      line-height: 38px;
+      letter-spacing: .1rem;
+      text-transform: uppercase;
+      text-decoration: none;
+      white-space: nowrap;
+      background-color: transparent;
+      border-radius: 2px;
+      /*border: 1px solid #E60024;*/
+      cursor: pointer;
+      box-sizing: border-box;
+}
+.pricing{
+  height: 100vh;
+  padding-top:50px;
+  margin-top: -50px;
+}
+.pricing .container{
+  height: 100%;
+}
+.row.prices{
+  padding-left: 40px;
+  padding-right: 10px;
+  height: 90%;
+}
+.price-column{
+  display:block;
+  height: 600px;
+}
+.price-column ul{
+  margin-top:30px;
+  list-style-type: none
+}
+li{
+  margin:15px 0px 15px 0px;
+}
+.price-column:hover{
+  background: #FFF;
+  border-bottom: 5px solid #E60024;
+  -webkit-transition: background .6s ease-in-out;
+  -moz-transition: background .6s ease-in-out;
+  -ms-transition: background .6s ease-in-out;
+  transition: background .6s ease-in-out;
+}
+.price-panel{
+  padding-top:20px;
+  margin-top: 20px;
+  height: 278px;
+  width: 100%;
+}
+.price-panel.panel1{
+  background-color:gainsboro;
+}
+.price-panel.panel2{
+  background-color:#CCB200;
+}
+.price-panel.panel3{
+  background-color:#e6e6ff;
+}
+
+.price-panel h5{
+  margin-bottom:30px;
+}
+.price-panel .price,.message{
+  margin:10px 0px 10px 0px;
+}
+.price-panel .price-button1{
+  margin:40px 0px 0px 0px;
+}
+.price-button.button.signup{
+  padding: 50px;
+  font-size: 1.3rem;
+}
+.feature{
+  padding:5px;
+  padding-right:33px;
+  font-size: 1.4em;
+}
+.footer{
+  text-align: center;
+  padding: 40px 0;
+}
+.footer-heading{
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.footer ul{
+  margin-top:30px;
+  list-style-type: none;
+  padding-left:0px;
+}
+.footer a{
+  color: #B206FF;
+  text-decoration: none;
+  font-size:1.4rem;
+}
+.footer a:hover{
+  color: #CC0073;
+  text-decoration: none;
+}
+.row.copyright{
+  margin-top:50px;
+}
+@media (min-width:550px){
+  .firstRow{
+    min-height: 415px
+  }
+} 
+@media (min-width: 767px){
+.splash {
+    min-height: 702px;
+  }
+}
+@media (min-width: 840px){
+  .splash {
+    background-image: -webkit-linear-gradient(110deg,#B206FF,#CC0073 250px,transparent 250px);
+    background-image: linear-gradient(-10deg,#B206FF,#CC0073  250px,transparent 250px);
+
+  }
+  .testimonial-text{
+    margin-top:50px;
+  }
+}
+@media (max-width: 839px){
+  .splash {
+      background-image: -webkit-linear-gradient(0deg,#B206FF,#CC0073 100px,transparent 100px);
+      background-image: linear-gradient(0deg,#B206FF,#CC0073 100px,transparent 100px);\
+  } 
+}
+@media (min-width: 550px){
+  .container {
+      width: 80%;
+  }
+}
+@media (max-width: 821px){
+  .price-panel .button{
+    margin-top:-5%;
+  }
+}
+@media (max-width: 768px){
+  .row.prices .col-sm-4{
+    max-height: 30px;
+  }
+  .price-panel .price-button1,.price-button2,.price-button3{
+    margin-top:27px;
+    font-size: 0.9em;
+  }
+  .price-panel .button{
+    max-width:64%;
+    margin-top:-10px;
+  }
+}
