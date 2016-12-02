@@ -19,6 +19,9 @@ body {
 .emailField{
   width: 50%;
   height: 38px;
+  text-align:left;
+  /*font-size:2rem;*/
+  padding-left:20px;
 }
 .signup{
   background:#E60024;
@@ -121,32 +124,23 @@ nav.navbar.navbar-inverse.navbar-fixed-top div.container{
   height: 39px;
 }
 .oneParent{
-  /*width: 279px;*/
   margin: 10px 0px;
 }
 .section-heading.one{
-  /*width: 279px;*/
-  /*margin-right:70% !important;*/
   float:left;
   display:inline-block;
 }
 .twoParent{
-  /*width: 591px;*/
   margin: 10px 0px;
 }
 .section-heading.two{
-  /*width: 591px;*/
-  /*margin-right:25% !important;*/
   float:left;
   display:none;
 }
 .threeParent{
-  /*width: 393px;*/
   margin: 10px 0px;
-
 }
 .section-heading.three{
-  /*width: 393px;*/
   float:left;
   margin-right:50% !important;
   display:none;
@@ -166,7 +160,6 @@ nav.navbar.navbar-inverse.navbar-fixed-top div.container{
   animation: 
   typingA 0.5s steps(40, end),
   blink-caret .75s step-end infinite;
-
 }
 .typewriter2{
   border-right: .10em solid black;
@@ -226,14 +219,12 @@ nav.navbar.navbar-inverse.navbar-fixed-top div.container{
     background: #B206FF;
 }
 .count {
-    /*position: absolute;*/
     top: 0;
     left: 0;
     width: 36px;
     height: 36px;
     border: 4px solid #CC0073;
     background: #FFF;
-    /*border-radius: 50%;*/
 }
 .count h5{
   font-size: 20px;
@@ -256,15 +247,11 @@ nav.navbar.navbar-inverse.navbar-fixed-top div.container{
   margin-left: 15px;
 }
 .pane-content .row .col-sm-5{
-  /*background-color:white; */
-  /*border: 1px solid black; */
   height:250px; 
   width: 250px;
   padding-left:0px;
 }
 .pane-content .row .col-sm-8{
-  /*background-color:white; */
-  /*border: 1px solid black; */
   height:250px; 
   padding-top:60px;
   font-size:2.4rem;
@@ -275,7 +262,6 @@ nav.navbar.navbar-inverse.navbar-fixed-top div.container{
 .pane-content .row .col-sm-8 p{
   text-align:left;
 }
-
 .pane-content::before{
   position: absolute;
   top: 16px;
@@ -329,7 +315,6 @@ nav.navbar.navbar-inverse.navbar-fixed-top div.container{
       white-space: nowrap;
       background-color: transparent;
       border-radius: 2px;
-      /*border: 1px solid #E60024;*/
       cursor: pointer;
       box-sizing: border-box;
 }
@@ -442,13 +427,10 @@ li{
   .splash {
     background-image: -webkit-linear-gradient(110deg,#B206FF,#CC0073 250px,transparent 250px);
     background-image: linear-gradient(-10deg,#B206FF,#CC0073  250px,transparent 250px);
-
   }
   .testimonial-text{
     margin-top:50px;
   }
-
-
 }
 @media (min-width: 1500px){
   @keyframes typingA {
@@ -504,8 +486,6 @@ li{
     to { width: 35% }
   }
 }
-
-
 @media (max-width: 839px){
   .splash {
       background-image: -webkit-linear-gradient(0deg,#B206FF,#CC0073 100px,transparent 100px);
