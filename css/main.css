@@ -426,7 +426,11 @@ li{
 }
 @media (min-width:550px){
   .firstRow{
-    min-height: 415px
+    min-height: 415px;
+    margin-top:10%;
+  }
+  .container {
+      width: 80%;
   }
 } 
 @media (min-width: 767px){
@@ -443,17 +447,70 @@ li{
   .testimonial-text{
     margin-top:50px;
   }
+
+
 }
+@media (min-width: 1500px){
+  @keyframes typingA {
+    from { width: 0 }
+    to { width: 18% }
+  }
+  @keyframes typingB {
+    from { width: 0 }
+    to { width: 40% }
+  }
+  @keyframes typingC {
+    from { width: 0 }
+    to { width: 30% }
+  }
+  @keyframes typingD {
+    from { width: 0 }
+    to { width: 45% }
+  }
+}
+@media (min-width: 2100px){
+  @keyframes typingA {
+    from { width: 0 }
+    to { width: 15% }
+  }
+  @keyframes typingB {
+    from { width: 0 }
+    to { width: 35% }
+  }
+  @keyframes typingC {
+    from { width: 0 }
+    to { width: 27% }
+  }
+  @keyframes typingD {
+    from { width: 0 }
+    to { width: 41% }
+  }
+}
+@media (min-width: 2300px){
+  @keyframes typingA {
+    from { width: 0 }
+    to { width: 14% }
+  }
+  @keyframes typingB {
+    from { width: 0 }
+    to { width: 30% }
+  }
+  @keyframes typingC {
+    from { width: 0 }
+    to { width: 27% }
+  }
+  @keyframes typingD {
+    from { width: 0 }
+    to { width: 35% }
+  }
+}
+
+
 @media (max-width: 839px){
   .splash {
       background-image: -webkit-linear-gradient(0deg,#B206FF,#CC0073 100px,transparent 100px);
       background-image: linear-gradient(0deg,#B206FF,#CC0073 100px,transparent 100px);\
   } 
-}
-@media (min-width: 550px){
-  .container {
-      width: 80%;
-  }
 }
 @media (max-width: 821px){
   .price-panel .button{
